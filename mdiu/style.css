@@ -1,0 +1,29 @@
+.button_set {
+	width: 300px;
+	background-color: red;
+}
+.plus {margin-left: 0px;}
+#div123 {
+	float: right;
+	background-color: yellow;
+}
+.files_p{
+
+	background-color: red;
+}
+#updown {
+  position: fixed;
+  top: 30px;
+  left: 10px;
+  cursor: pointer;
+  background-color: red;
+}
+/*Для стиля окон при выводе даты и времени*/
+.inpatik{
+	font-size:15px;
+	 padding:10px 0px 8px 5px;
+}
+/*Для стиля спавн, что используются при инпутах.*/
+.spann{
+	font-size:13px;background-color:#294a70;color:white;
+}
