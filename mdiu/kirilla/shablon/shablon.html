@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+<!-- Bootstrap -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link href="css/bootstrap.min.css" rel="stylesheet"> 
+ <!-- jQuery -->
+<link href="css/style.css" rel="stylesheet"> 
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script> 
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<!-- tree-view -->
+<script src="/papki_js/jquery.treeview.js" type="text/javascript"></script>
+<link rel="stylesheet" href="papki_js/jquery.treeview.css" />
+</head>
+  <div class="container">
+    <!-- Лого -->
+    <div class="row"> <div class="col-sm-12 pol-otstupa"></div></div>      
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2" ><span><?php echo $dim; ?></div>
+      <div class="col-sm-10  "><span><?php echo $menu; ?></span></div>
+    </div>
+  </div>
+  <!-- Начало -->
+  <div class="container">
+     <!-- <div class="row"> <div class="col-sm-12 pol-otstupa"></div></div>  -->
+    <!-- Контент часть  и правая навигационная панель-->
+    <div class="row ">
+      <!-- Контент -->
+      <div class="col-sm-9">
+        <?php echo $content; ?>
+      </div>
+      <div class="col-sm-3">
+        <span><?php echo $right_nav_panel ; ?></span> 
+      <!-- /Правая навигационная панелья -->    
+      </div>
+<!-- /Контент часть и правая навигационная панель -->
+      </div>
+  <!-- Конец -->
+ </div>
+   <div class="col-sm-12 pol-otstupa"></div>
+       <div class="container">   <span><?php echo $foother ; ?></span> </div>
+    <!-- BootStrap -->
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/skript.js"></script>
+
+  </body>
+</html>
+
+
+

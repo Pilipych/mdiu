@@ -1,0 +1,220 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+a.non-podch:hover  {
+    color :#f4a024;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+## Дополнительные классы под BootStrap
+--------------------------------------------------------------*/
+
+.block {
+
+    background-color:grey;
+    border-color: black; 
+}
+.otstup {
+    height: 50px;
+}
+.pol-otstupa {
+
+    height: 25px;
+}
+/*--------------------------------------------------------------
+## Правая контентная навигационная панель
+--------------------------------------------------------------*/
+
+/* */
+
+.arrow  {
+    list-style: none; 
+    list-style-image:url(/images/arrow.png);
+    margin-top:5px;
+    margin-left:-20px;
+    list-style-position: outside; /* Маркер обтекается текстом */
+    
+   }
+
+.prav-nav {
+    color: #294a70;
+    background-color: transparent;
+}
+
+.widget-title {
+    background: #007cc3 none repeat scroll 0 0;
+    border-bottom: 0 solid #ffab1f;
+    border-left: 5px solid #ffab1f;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding: 5px 15px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+/*--------------------------------------------------------------
+## Навигационна панель
+
+/*--------------------------------------------------------------
+## Foother
+--------------------------------------------------------------*/
+#footer-widgets .widget-title {
+    font-family: Arial;
+    color: #c2c2c2;
+    font-weight: normal;
+}
+
+
+.site-footer {
+    background-color: #1f76be;
+    clear: both;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    
+}
+
+.copyright {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+#footer-navigation li:first-child a,
+#quick-links-404 ul li:first-child a {
+    border: medium none;
+}
+
+#footer-navigation li a,
+#quick-links-404 ul li a {
+    border-left: 1px solid #dddddd;
+    line-height: 0.2;
+}
+
+#footer-navigation li a,
+#quick-links-404 ul li a {
+    color: #ffffff;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+#footer-navigation ul{
+    margin: 0;
+}
+
+
+#footer-navigation li,
+#quick-links-404 ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+
+/*--------------------------------------------------------------
+## Menu
+--------------------------------------------------------------*/
+.otsy{
+    margin-bottom: 5px;
+}
+form.navbar-form.navbar-left
+{
+    margin-top: 10px;
+}
+
+/* Для самого первого элемента меню, ибо это бренд.   */
+.navbar-default .navbar-brand:hover {
+    background-color: #f4a024;
+    color: #fff;
+}
+.navbar-brand{
+     height: 44px;
+}
+/* --------------  */
+
+.navbar-default {
+   text-align:centers;
+   font-size: 16px;
+   text-transform: uppercase;
+   border-radius: 0;
+   background-color: #1f76be;
+   padding: 0px; 
+   border-bottom: 5px solid #f4a024;
+   display : block;
+   float :left;
+   width: 100%;    
+   transition : all 0.5s ease-in-out;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus { background-color: #f4a024;}
+/* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+
+
+.navbar-default .navbar-nav  > li > a {
+        border-right: 1px solid #fff;
+        height: 44px;
+}
+/*цвет ячеек раскрывающего меню, при наведение*/
+.navbar-default .dropdown-menu > li > a:hover{
+    color:white;
+    background-color:#f4a024;
+    position:relative;
+    margin-right:9px;
+    margin-left:9px;
+    outline: #f4a024 solid 8px;
+    
+}
+.navbar-default .dropdown-menu
+{
+   background-color:#1f76be; 
+}
+/*цвет элементов ссылок при наведение */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+    background-color: #f4a024;
+}
+
+/*Цвет меню маленького  при наведение*/
+.navbar-default .navbar-toggle:hover{
+    background-color:  #f4a024;
+}
+
+/*Цвет меню маленького  при нажатие*/
+.navbar-default .navbar-toggle:focus{
+    background-color:  #27ae60;
+}
+
+/*Цвет полосочек меню маленького*/
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #ecf0f1;
+}
+
+/*цвет при наведение на пункти раскрывающего меню, на мобильных версиях*/
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        background-color: #f4a024;
+        position:relative;
+        margin-right:10px;
+        margin-left:10px;
+        outline: #f4a024 solid 9px;         
+}
+}
+
+.navbar-default .navbar-nav > li > a {
+        border-left: 1px solid #fff;
+        height: 44px;
+}
+/*делает линию слева в меню */
+.linya{
+   /* border-left: 22px solid #fff;*/
+    text-transform:none;
+    font-size: 2em;
+
+}
